@@ -4,13 +4,13 @@ pragma solidity 0.7.6;
 pragma abicoder v2;
 
 // imports
-import "@openzeppelin/contracts/access/Ownable.sol";
+import "@openzeppelin/contracts@3.4.2/access/Ownable.sol";
 
 import "./Pool.sol";
 import "./Router.sol";
 
 // libraries
-import "@openzeppelin/contracts/math/SafeMath.sol";
+import "@openzeppelin/contracts@3.4.2/math/SafeMath.sol";
 import "./interfaces/ILayerZeroReceiver.sol";
 import "./interfaces/ILayerZeroEndpoint.sol";
 import "./interfaces/ILayerZeroUserApplicationConfig.sol";
